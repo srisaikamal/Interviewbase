@@ -56,27 +56,23 @@ function MUITable() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
-      <Table className={classes.table} aria-label="simple table">
+    <TableContainer component={Paper} className={classes.table}>
+      <Table aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>Name</TableCell>
             <TableCell>Designation</TableCell>
             <TableCell>Status</TableCell>
-            <TableCell>Date</TableCell>
-            <TableCell>Time</TableCell>
+            {/* <TableCell>Date</TableCell> */}
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
+              <TableCell>{row.name}</TableCell>
               <TableCell>{row.calories}</TableCell>
               <TableCell>{row.fat}</TableCell>
-              <TableCell>{row.carbs}</TableCell>
-              <TableCell>{row.protein}</TableCell>
+              {/* <TableCell>{row.carbs}</TableCell> */}
             </TableRow>
           ))}
         </TableBody>
