@@ -1,8 +1,10 @@
 ## Interview tracking application
 
-https://raw.githubusercontent.com/srisaikamal/Interviewbase/master/InterviewBase1.png
+<img src="https://raw.githubusercontent.com/srisaikamal/Interviewbase/master/InterviewBase1.png"
+     alt="InterviewBase" />
 
-https://raw.githubusercontent.com/srisaikamal/Interviewbase/master/InterviewBase2.png
+<img src="https://raw.githubusercontent.com/srisaikamal/Interviewbase/master/InterviewBase2.png"
+     alt="InterviewBase" />
 
 MIT License
 
